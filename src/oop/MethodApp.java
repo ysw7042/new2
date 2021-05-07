@@ -44,7 +44,7 @@ public class MethodApp {
 		System.out.println("메소드 호출 결과 = "+total);
 		
 		//메소드 호출시 반환되는 결과값 출력 - 반환값 일시적 사용
-		System.out.println("합계 = "+method.returnTot(40, 80));
+		System.out.println("합계 = "+method.returnTot(36, 79));
 		System.out.println("=========================================================");
 		boolean result=method.isOddEven(10);
 		if(result) {//result 변수값이 true인 경우

@@ -53,14 +53,14 @@ public class Method {
 		
 		int tot=0;
 		for(int i=num1;i<=num2;i++) {
-			tot+=i;
+			tot+=i;//tot=tot+i
 		}
 		System.out.println(num1+"~"+num2+" 범위의 정수들의 합계 = "+tot);
 	}
 	
 	//메소드 호출시 정수값을 반환하는 메소드
 	int returnTot(int num1, int num2) {
-		if(num1>num2) {
+		if(num1>num2) {//치환
 			int temp=num1;
 			num1=num2;
 			num2=temp;
